@@ -18,7 +18,7 @@
         <properties>
           <font name="Courier New" size="36" style="1"/>
           <foreground color="-1539"/>
-          <text value="Manege Oders"/>
+          <text value="Manage Orders"/>
         </properties>
       </component>
       <component id="33e67" class="javax.swing.JLabel" binding="OderId">
@@ -27,7 +27,7 @@
         </constraints>
         <properties>
           <font/>
-          <text value="enter oder id"/>
+          <text value="Enter Order ID"/>
         </properties>
       </component>
       <component id="98d5b" class="javax.swing.JLabel" binding="CoustomerId">
@@ -35,7 +35,7 @@
           <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="enter coustomer id"/>
+          <text value="Enter Customer Name"/>
         </properties>
       </component>
       <component id="e9494" class="javax.swing.JTextField" binding="txtOderId">
@@ -65,7 +65,7 @@
           <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="eneter oder date"/>
+          <text value="Enter Order Date"/>
         </properties>
       </component>
       <component id="92bb" class="javax.swing.JTextField" binding="txtOderDate">
@@ -83,7 +83,7 @@
           <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="enter Oder Category"/>
+          <text value="Enter Order Category"/>
         </properties>
       </component>
       <component id="247b" class="javax.swing.JTextField" binding="txtOderCategory">
@@ -101,7 +101,7 @@
           <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="enter Quantity"/>
+          <text value="Enter Quantity"/>
         </properties>
       </component>
       <component id="f174f" class="javax.swing.JTextField" binding="txtQuantity">
@@ -114,20 +114,12 @@
           <background color="-327693"/>
         </properties>
       </component>
-      <component id="8ce20" class="javax.swing.JLabel" binding="TotalPrice">
-        <constraints>
-          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="enter Total Price"/>
-        </properties>
-      </component>
       <component id="d142a" class="javax.swing.JLabel" binding="OderDescription">
         <constraints>
           <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="enter Oder Description"/>
+          <text value="Enter Order Description"/>
         </properties>
       </component>
       <component id="e3b0c" class="javax.swing.JLabel" binding="Status">
@@ -135,7 +127,7 @@
           <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="enter Status"/>
+          <text value="Enter Status"/>
         </properties>
       </component>
       <component id="8e633" class="javax.swing.JTextField" binding="txtStatus">
@@ -175,7 +167,7 @@
         <properties>
           <background color="-7345926"/>
           <foreground color="-16056314"/>
-          <text value="AddOder"/>
+          <text value="Add Order"/>
         </properties>
       </component>
       <component id="41cff" class="javax.swing.JButton" binding="btnUpdateOder">
@@ -185,7 +177,7 @@
         <properties>
           <background color="-4591361"/>
           <foreground color="-16056314"/>
-          <text value="Update Oder"/>
+          <text value="Update Order"/>
         </properties>
       </component>
       <component id="11c" class="javax.swing.JButton" binding="btnDeleteOder">
@@ -195,7 +187,15 @@
         <properties>
           <background color="-4263425"/>
           <foreground color="-16056314"/>
-          <text value="Delete Oder"/>
+          <text value="Delete Order"/>
+        </properties>
+      </component>
+      <component id="8ce20" class="javax.swing.JLabel" binding="TotalPrice">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Enter Total Price"/>
         </properties>
       </component>
     </children>

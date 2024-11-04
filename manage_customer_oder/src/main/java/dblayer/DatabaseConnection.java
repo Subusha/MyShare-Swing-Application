@@ -3,7 +3,7 @@ package dblayer;
 import java.sql.*;
 
 public class DatabaseConnection {
-    private final String URL="jdbc:mysql://localhost:3306/manage_oder";
+    private final String URL="jdbc:mysql://localhost:3306/oop_db";
     private final String UName="root";
     private final String Password="";
     private static DatabaseConnection instance;
